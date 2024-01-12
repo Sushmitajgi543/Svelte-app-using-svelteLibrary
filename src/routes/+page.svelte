@@ -6,12 +6,12 @@
 	</div>
 	<div class="main__second">
 		<span class="main__intro">
-			Currently, I'm an Engineer at Red Hat, specialized in creating clean, elegant and functional
-			Android Applications. I share knowledge by my articles and talks. I experience joy in
-			development and leadership roles.
+			Currently, I'm an Software Developer Engineer at <a href="">Onelab Venture</a> , specialized in creating clean, elegant and functional
+			Web Applications. I experience joy in
+			development and leadership roles. My overal experience is 2 years.
 		</span>
 		<br />
-        <div><a href="">Get In Touch</a></div>
+        <div><a href="" class="get_in_touch">Get In Touch</a></div>
 		
 	</div>
 </section>
@@ -56,7 +56,7 @@
         font-size: 20px;
         padding-top: 30px;
 	}
-    .main__second a{
+    .get_in_touch{
         border: 1px solid var(--color-theme-1);
         padding: 10px;
 
