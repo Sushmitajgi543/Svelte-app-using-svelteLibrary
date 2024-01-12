@@ -12,7 +12,7 @@
 	<div class="img">
 		<img src={item.img} alt="Cover" />
 	</div>
-	<div>
+	<div class="text">
 		<h2>{item.des}</h2>
 		<p>{item.subtitle}</p>
 	</div>
@@ -35,13 +35,16 @@
 		justify-content: flex-start;
 		background-color: transparent;
 		align-items: center;
+        color: #f7f7f7;
+      
 	}
 	.collapse__header:hover {
-		background: #f7f7f7;
+		background: rgba(172, 171, 171, 0.481);
 	}
 	.collapse__body {
 		padding: 1rem;
-		background: #f0f0f0;
+		/* background: var(--color-bg-2); */
+        margin-bottom: 20px;
 	}
 	.collapse__header h2 {
 		font-weight: 600;
@@ -50,16 +53,16 @@
 		font-weight: 300;
 		font-size: 12px;
 	}
-	.collapse__header div {
+	.collapse__header .text {
 		padding-left: 30px;
 	}
 	.img {
 		width: 15%;
-		border: 1px solid #f0f0f0;
+		/* border: 1px solid #f0f0f0; */
 		padding: 20px;
-		background-color: rgba(240, 248, 255, 0.294);
+		background-color: rgb(253, 253, 253);
 	}
 	.img img {
 		width: 100%;
 	}
-</style>
+</style> 
